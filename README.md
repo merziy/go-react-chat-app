@@ -4,6 +4,8 @@ This is a simple chat web app that used ReactJS for the frontend and Go for the 
 
 The frontend is built with React. It uses an API to communicate with the backend and listen for messages. Sass is also used for cleaner and minimized css. It is based on [Tutorial Edge](https://github.com/TutorialEdge/realtime-chat-go-react)'s github repo.
 
+The backend uses Go.
+
 ### Setup
 
 To get the file running, first clone the repository by typing
@@ -13,6 +15,7 @@ To get the file running, first clone the repository by typing
 on your commandline. Then:
 
     cd /frontend
+    npm install
     npm start
 
 navigating to the backend to start the Docker container,
