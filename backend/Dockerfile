@@ -1,9 +1,10 @@
 # Instal glang dependencies 
-FROM golang:1.11.1-alpine3.8
+FROM golang:1.17.5 
 RUN mkdir /app
 ADD . /app/
 # Set working directory
 WORKDIR /app
-RUN go mod download
-RUN go build -o main ./...
-CMD ["/app/main"]
+RUN go mod download 
+RUN go build -v
+RUN ls
+CMD ["/app/go-react-chat-app"]
