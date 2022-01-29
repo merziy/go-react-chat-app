@@ -8,7 +8,7 @@ import (
 )
 
 /*
-defin WebSocket enpoint
+define WebSocket enpoint
 */
 func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {
 	fmt.Println("WebSocket Endpoint Hit")
