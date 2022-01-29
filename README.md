@@ -1,8 +1,8 @@
 # Go/ReactJS Web Chat application
 
-This is a simple chat web app that used ReactJS for the frontend and Go for the backend. It uses the [Gorrila Websocket][https://github.com/gorilla/websocket] implementation of the WebSocket protocol to handle communication between multiple instances.
+This is a simple chat web app that used ReactJS for the frontend and Go for the backend. It uses the [Gorrila Websocket](https://github.com/gorilla/websocket) implementation of the WebSocket protocol to handle communication between multiple instances.
 
-The frontend is built with React. It uses an API to communicate with the backend and listen for messages. Sass is also used for cleaner and minimized css. It is based on [Tutorial Edge]'s github repo.[https://github.com/TutorialEdge/realtime-chat-go-react]
+The frontend is built with React. It uses an API to communicate with the backend and listen for messages. Sass is also used for cleaner and minimized css. It is based on [Tutorial Edge](https://github.com/TutorialEdge/realtime-chat-go-react)'s github repo.
 
 ### Setup
 
